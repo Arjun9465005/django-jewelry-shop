@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jewelry Ecommerce Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .blog {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .blog-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .blog-meta {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 10px;
+    }
+
+    .blog-content {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .blog-link {
+      display: block;
+      margin-top: 10px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .blog-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h2>Latest Blog Posts</h2>
+
+  <div class="blog">
+    <h3 class="blog-title">The Beauty of Diamond Jewelry</h3>
+    <p class="blog-meta">Posted on June 1, 2023</p>
+    <p class="blog-content">Diamond jewelry is timeless and elegant, making it a popular choice for special occasions and everyday wear. Whether you're looking for an engagement ring, a necklace, or a pair of earrings, diamonds add a touch of sparkle and sophistication to any outfit...</p>
+
+  </div>
+
+  <div class="blog">
+    <h3 class="blog-title">Choosing the Perfect Wedding Band</h3>
+    <p class="blog-meta">Posted on May 15, 2023</p>
+    <p class="blog-content">Your wedding band is a symbol of your love and commitment, so it's important to choose one that reflects your personal style and fits comfortably. Whether you prefer a classic gold band, a diamond-encrusted ring, or a unique design, there are endless options to explore...</p>
+
+  </div>
+
+  <div class="blog">
+    <h3 class="blog-title">The History of Birthstones</h3>
+    <p class="blog-meta">Posted on April 25, 2023</p>
+    <p class="blog-content">Birthstones have been cherished for centuries, with each month associated with a specific gemstone that holds special meaning and significance. From the vibrant green of emerald to the fiery red of ruby, birthstones offer a personal and meaningful way to celebrate birthdays...</p>
+
+  </div>
+</body>
+</html>
+
+
+
+{% endblock content %}

@@ -1,0 +1,62 @@
+
+{%block content%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333333;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #666666;
+    }
+
+    .btn-home {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to our exquisite jewelry shop!</h1>
+    <p>We take pride in offering a stunning collection of jewelry pieces that are meticulously crafted to perfection.</p>
+    <p>Discover the epitome of elegance as you explore our extensive range of jewelry, featuring an array of designs to suit every style and occasion. From dazzling diamond necklaces to sparkling gemstone earrings, our curated selection showcases the finest craftsmanship and timeless beauty.</p>
+    <p>Indulge in the allure of our diamond collection, where each stone is carefully selected for its exceptional brilliance and fire. Our skilled artisans transform these precious gems into breathtaking rings, bracelets, and pendants, capturing the essence of luxury and sophistication.</p>
+    <p>Experience the enchantment of our gemstone collection, where vibrant colors and unique cuts take center stage. From deep blue sapphires to rich emeralds and captivating rubies, our gemstone jewelry is sure to make a statement and leave a lasting impression.</p>
+    <p>We also offer a range of personalized jewelry, allowing you to create a truly one-of-a-kind piece that reflects your individual style and holds sentimental value. Our expert craftsmen work closely with you to bring your vision to life, ensuring every detail is executed with precision.</p>
+    <p>At our jewelry shop, we prioritize quality, authenticity, and customer satisfaction. Each piece is crafted using the finest materials and undergoes strict quality control measures to ensure exceptional standards. Our knowledgeable and friendly staff are dedicated to providing a personalized shopping experience, assisting you in finding the perfect piece that celebrates your unique personality and milestones.</p>
+    <p>Whether you are searching for a special gift, a symbol of love and commitment, or simply looking to treat yourself to something extraordinary, our jewelry shop is your ultimate destination. Explore our online collection or visit our store to immerse yourself in the world of exquisite craftsmanship and timeless beauty. Let us help you adorn yourself with elegance and create cherished memories that will last a lifetime.</p>
+
+    <a href="{% url 'store:home'%}" class="btn-home">Home</a>
+  </div>
+</body>
+
+</html>
+
+
+{% endblock content %}
