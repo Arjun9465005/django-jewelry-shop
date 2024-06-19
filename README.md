@@ -27,5 +27,4 @@ Reset Password
 ![Screenshot (175)](https://github.com/Arjun9465005/django-jewelry-shop/assets/146981693/e6390627-91c9-4ce6-80fe-58fc70ec5682)
 ![Screenshot (174)](https://github.com/Arjun9465005/django-jewelry-shop/assets/146981693/5f3963f5-2e9b-4591-9306-26ca1d582e43)
 ![Screenshot (173)](https://github.com/Arjun9465005/django-jewelry-shop/assets/146981693/736d7c2c-bd72-4b48-acb8-a8da383428b9)
-![Screenshot 2  ](https://github.com/Arjun9465005/django-jewelry-shop/assets/146981693/59071241-0a57-45e0-b6d7-391738716dd2)
 ![Screenshot (185)](https://github.com/Arjun9465005/django-jewelry-shop/assets/146981693/6336973f-d49a-46dc-aea6-44d8ee572e97)
